@@ -1632,6 +1632,13 @@ pre .javascript .function {
     transform: rotateZ(-30deg);
   }
 }
+.post-copyright {
+  margin: 2em 0 0;
+  padding: 0.5em 1em;
+  border-left: 3px solid #ff1700;
+  background-color: #f9f9f9;
+  list-style: none;
+}
 .sidebar {
   position: fixed;
   right: 0;
@@ -1705,9 +1712,11 @@ pre .javascript .function {
   display: block;
   margin: 0 auto;
   padding: 2px;
-  max-width: 96px;
+  max-width: 150px;
   height: auto;
   border: 2px solid #333;
+  border-radius: 50%;
+  margin-top: 10px;
 }
 .site-author-name {
   margin: 5px 0 0;
@@ -1789,7 +1798,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #3c79ff;
+  background: #f0f038;
 }
 .links-of-blogroll {
   font-size: 13px;
