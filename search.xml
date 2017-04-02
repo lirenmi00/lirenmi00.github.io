@@ -3,6 +3,13 @@
   
     
     <entry>
+      <title><![CDATA[Hexo与GitHub免费搭建个人博客（一）]]></title>
+      <url>%2F2017%2F04%2F02%2FHexo%E4%B8%8EGitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%2F</url>
+      <content type="text"><![CDATA[【原创】 本来计划自己动手开发一个个人博客网站，但是考虑到需要时间成本，而且需要购买空间或者服务器，所以采用了Hexo + GitHub pages这种方式快速搭建博客。 环境准备Mac OS操作系统Git：Git是目前最流行的版本管理系统，学会Git几乎成了开发者的必备技能，更多详情请参照 Git远程操作详解Hexo：一个快速构建个人博客系统的开源框架，支持MarkDownNexT主题：针对Hexo的一个主题，风格简洁清爽，常用插件支持GitHub Pages ：官方介绍是面向用户、组织和项目开放的公共静态页面搭建托管服务，站点可以被免费托管在Github 上，你可以选择使用Github Pages 默认提供的域名github.io 或者自定义域名来发布站点阿里云域名：我是在阿里云购买了一个个人域名www.lirenmi.cn，然后与GitHub Pages域名绑定，实现个性域名访问博客，当然你也可以不购买域名，用GitHub Pages注册地址。看个人需求 GitHub Pages环境搭建第一、先要注册GitHub账户第二、创建repository第三、创建页面index.html第四、查看GitHub Pages发布地址 1、注册GitHub 访问 GitHub，注册GitHub账户，注意：userName和后面的GitHub Pages访问地址有关。注册成功后要记得邮箱激活GitHub. 2、创建repository 注册成功登陆后，点击“New repository”创建repository，如下图所示 接下来填写Repository Name，格式：[userName].github.io , userName是你注册GitHub填写的userName. 例如下图， ZhangYaru8829 是我GitHub的用户名。如下图所示 注意：Repository Name一定要是[userName].github.io 格式 然后点击 “Create repository”按钮，创建repository 注意：创建repository时，注意勾选 “Initialize this repository with a README”选项 3、创建页面index.html 创建repository成功后，来添加我们的第一个页面 index.html. 点击 “Create new file”按钮，如下图 创建index.html，增加页面代码123456789&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt; &lt;title&gt;my GitHub Pages&lt;/title&gt;&lt;/head&gt;&lt;body&gt; &lt;p&gt;我的 GitHub Pages 创建成功啦！&lt;/p&gt;&lt;/body&gt;&lt;/html&gt; 创建时，注意使用默认master分支 4、查看GitHub Pages发布地址点击 “Settings” 按钮，查看 GitHub Pages 地址。 GitHub Pages发布地址 GitHub Pages搭建成功啦！ 本文作者 : 李仁密版权声明 : 自由转载，转载请注明出处！]]></content>
+    </entry>
+
+    
+    <entry>
       <title><![CDATA[打赏功能]]></title>
       <url>%2F2017%2F03%2F31%2F%E6%89%93%E8%B5%8F%E5%8A%9F%E8%83%BD%2F</url>
       <content type="text"><![CDATA[打赏功能测试 在一个块格式化上下文里，盒子从包含块顶部开始一个接一个的纵向排列。两个相邻兄弟盒子之间的垂直的间隙取决于 margin 定义。块级盒纵向相邻（水平书写格式下）的 margins 会在同一个块格式化上下文中折叠合并（取最大值）。 在一个块格式化上下文里，每个盒子的左外边界会触碰到包含块的左边界（如果是从右到左的书写格式，则为右边界），即使同时存在浮动元素也是如此（虽然盒子的行框集可能会由于浮动的存在而缩小），除非这个盒子创建了一个新的块格式化上下文（在这种情况下，盒子本身由于浮动可能会变得更窄）。]]></content>
