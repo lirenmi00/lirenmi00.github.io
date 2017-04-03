@@ -100,36 +100,41 @@
 
 <meta name="description" content="【原创】
 
-本来计划自己动手开发一个个人博客网站，但是考虑到需要时间成本，而且需要购买空间或者服务器，所以采用了Hexo + GitHub pages这种方式快速搭建博客。博客最终效果
+上篇文章介绍了GitHub Pages环境搭建，本篇文章的主题是 Hexo+NexT主题构建个人博客
 
-环境准备Mac OS操作系统Git：Git是目前最流行的版本管理系统，学会Git几乎成了开发者的必备技能，更多详情请参照 Git远程操作详解Hexo：一个快速构建个人博客系统的开源框架，支持MarkDownNod">
+关于HexoHexo：快速、简洁且高效的博客框架 ，基于Node语言开发的。具有一下特性：
+
+超快速度   Node.js 所带来的超快生成速度，让上百个页面在几秒内瞬间完成渲染
+支持 Markdown  支持 GitHub Flavored Markdown 的所有功能，甚至可以整">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo与GitHub免费搭建个人博客（一）">
-<meta property="og:url" content="http://www.lirenmi.cn/2017/04/02/Hexo与GitHub搭建个人博客/index.html">
+<meta property="og:title" content="Hexo与GitHub免费搭建个人博客（二）">
+<meta property="og:url" content="http://www.lirenmi.cn/2017/04/03/Hexo与GitHub免费搭建个人博客（二）/index.html">
 <meta property="og:site_name" content="Lirenmi">
 <meta property="og:description" content="【原创】
 
-本来计划自己动手开发一个个人博客网站，但是考虑到需要时间成本，而且需要购买空间或者服务器，所以采用了Hexo + GitHub pages这种方式快速搭建博客。博客最终效果
+上篇文章介绍了GitHub Pages环境搭建，本篇文章的主题是 Hexo+NexT主题构建个人博客
 
-环境准备Mac OS操作系统Git：Git是目前最流行的版本管理系统，学会Git几乎成了开发者的必备技能，更多详情请参照 Git远程操作详解Hexo：一个快速构建个人博客系统的开源框架，支持MarkDownNod">
-<meta property="og:image" content="http://on91wk3hn.bkt.clouddn.com/17-4-2/83703949-file_1491114516501_9b11.png">
-<meta property="og:image" content="http://on91wk3hn.bkt.clouddn.com/17-4-2/82010932-file_1491114124734_9b4e.png">
-<meta property="og:image" content="http://on91wk3hn.bkt.clouddn.com/17-4-2/99871409-file_1491117808474_3bf8.png">
-<meta property="og:image" content="http://on91wk3hn.bkt.clouddn.com/17-4-2/64913308-file_1491118173845_168f2.png">
-<meta property="og:image" content="http://on91wk3hn.bkt.clouddn.com/17-4-2/743565-file_1491118388897_1a55.png">
-<meta property="og:image" content="http://on91wk3hn.bkt.clouddn.com/17-4-2/70891937-file_1491118784967_105b3.png">
-<meta property="og:image" content="http://on91wk3hn.bkt.clouddn.com/17-4-2/99113761-file_1491119124827_4ed3.png">
-<meta property="og:image" content="http://on91wk3hn.bkt.clouddn.com/17-4-2/40160729-file_1491119330259_16694.png">
-<meta property="og:image" content="http://on91wk3hn.bkt.clouddn.com/17-4-2/51383077-file_1491119663410_159ea.png">
-<meta property="og:updated_time" content="2017-04-02T12:24:18.000Z">
+关于HexoHexo：快速、简洁且高效的博客框架 ，基于Node语言开发的。具有一下特性：
+
+超快速度   Node.js 所带来的超快生成速度，让上百个页面在几秒内瞬间完成渲染
+支持 Markdown  支持 GitHub Flavored Markdown 的所有功能，甚至可以整">
+<meta property="og:image" content="http://on91wk3hn.bkt.clouddn.com/17-4-3/5242528-file_1491209954195_fc84.png">
+<meta property="og:image" content="http://on91wk3hn.bkt.clouddn.com/17-4-3/55310405-file_1491210628989_1751f.png">
+<meta property="og:image" content="http://on91wk3hn.bkt.clouddn.com/17-4-3/93365056-file_1491212001251_9f07.png">
+<meta property="og:image" content="http://on91wk3hn.bkt.clouddn.com/17-4-3/78482203-file_1491212776988_3a8e.png">
+<meta property="og:image" content="http://on91wk3hn.bkt.clouddn.com/17-4-3/64320995-file_1491213067021_420.png">
+<meta property="og:updated_time" content="2017-04-03T09:59:21.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo与GitHub免费搭建个人博客（一）">
+<meta name="twitter:title" content="Hexo与GitHub免费搭建个人博客（二）">
 <meta name="twitter:description" content="【原创】
 
-本来计划自己动手开发一个个人博客网站，但是考虑到需要时间成本，而且需要购买空间或者服务器，所以采用了Hexo + GitHub pages这种方式快速搭建博客。博客最终效果
+上篇文章介绍了GitHub Pages环境搭建，本篇文章的主题是 Hexo+NexT主题构建个人博客
 
-环境准备Mac OS操作系统Git：Git是目前最流行的版本管理系统，学会Git几乎成了开发者的必备技能，更多详情请参照 Git远程操作详解Hexo：一个快速构建个人博客系统的开源框架，支持MarkDownNod">
-<meta name="twitter:image" content="http://on91wk3hn.bkt.clouddn.com/17-4-2/83703949-file_1491114516501_9b11.png">
+关于HexoHexo：快速、简洁且高效的博客框架 ，基于Node语言开发的。具有一下特性：
+
+超快速度   Node.js 所带来的超快生成速度，让上百个页面在几秒内瞬间完成渲染
+支持 Markdown  支持 GitHub Flavored Markdown 的所有功能，甚至可以整">
+<meta name="twitter:image" content="http://on91wk3hn.bkt.clouddn.com/17-4-3/5242528-file_1491209954195_fc84.png">
 
 
 
@@ -157,13 +162,13 @@
 
 
 
-  <link rel="canonical" href="http://www.lirenmi.cn/2017/04/02/Hexo与GitHub搭建个人博客/"/>
+  <link rel="canonical" href="http://www.lirenmi.cn/2017/04/03/Hexo与GitHub免费搭建个人博客（二）/"/>
 
 
 
 
 
-  <title> Hexo与GitHub免费搭建个人博客（一） | Lirenmi </title>
+  <title> Hexo与GitHub免费搭建个人博客（二） | Lirenmi </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -323,7 +328,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://www.lirenmi.cn/2017/04/02/Hexo与GitHub搭建个人博客/">
+  <link itemprop="mainEntityOfPage" href="http://www.lirenmi.cn/2017/04/03/Hexo与GitHub免费搭建个人博客（二）/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="李仁密">
@@ -347,7 +352,7 @@
             
             
               
-                Hexo与GitHub免费搭建个人博客（一）
+                Hexo与GitHub免费搭建个人博客（二）
               
             
           </h1>
@@ -360,8 +365,8 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-04-02T11:01:33+08:00">
-                2017-04-02
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-04-03T15:34:55+08:00">
+                2017-04-03
               </time>
             
 
@@ -421,30 +426,56 @@
       
         <p>【原创】</p>
 <blockquote>
-<p>本来计划自己动手开发一个个人博客网站，但是考虑到需要时间成本，而且需要购买空间或者服务器，所以采用了Hexo + GitHub pages这种方式快速搭建博客。<br><a href="http://www.lirenmi.cn">博客最终效果</a></p>
+<p>上篇文章介绍了<a href="http://www.lirenmi.cn/2017/04/02/Hexo与GitHub搭建个人博客/#more"><strong>GitHub Pages环境搭建</strong></a>，本篇文章的主题是 <b style="color:#FC131C">Hexo+NexT主题构建个人博客</b></p>
 </blockquote>
-<h3 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h3><p><strong>Mac OS</strong>操作系统<br><a href="https://git-scm.com" target="_blank" rel="external"><strong>Git</strong></a>：Git是目前最流行的版本管理系统，学会Git几乎成了开发者的必备技能，更多详情请参照 <a href="http://www.ruanyifeng.com/blog/2014/06/git_remote.html" target="_blank" rel="external">Git远程操作详解</a><br><a href="https://hexo.io/zh-cn/" target="_blank" rel="external"><strong>Hexo</strong></a>：一个快速构建个人博客系统的开源框架，支持<a href="http://www.markdown.cn" target="_blank" rel="external">MarkDown</a><br><a href="http://nodejs.cn" target="_blank" rel="external"><strong>Node</strong></a>：Hexo是基于Node框架开发，所以需要Node环境<br><a href="http://theme-next.iissnan.com/tag-plugins.html" target="_blank" rel="external"><strong>NexT主题</strong></a>：针对Hexo的一个主题，风格简洁清爽，常用插件支持<br><a href="https://pages.github.com" target="_blank" rel="external"><strong>GitHub Pages</strong></a> ：官方介绍是面向用户、组织和项目开放的公共静态页面搭建托管服务，站点可以被免费托管在Github 上，你可以选择使用Github Pages 默认提供的域名github.io 或者自定义域名来发布站点<br><a href="https://wanwang.aliyun.com/domain/com?spm=5176.8142029.388261.138.cXvZvm" target="_blank" rel="external"><strong>阿里云域名</strong></a>：我是在阿里云购买了一个个人域名<a href="http://www.lirenmi.cn">www.lirenmi.cn</a>，然后与GitHub Pages域名绑定，实现个性域名访问博客，当然你也可以不购买域名，用GitHub Pages注册地址。看个人需求</p>
-<a id="more"></a>
-<h3 id="GitHub-Pages环境搭建"><a href="#GitHub-Pages环境搭建" class="headerlink" title="GitHub Pages环境搭建"></a>GitHub Pages环境搭建</h3><div class="note success"><p>第一、先要注册GitHub账户<br>第二、创建repository<br>第三、创建页面index.html<br>第四、查看GitHub Pages发布地址</p>
+<h3 id="关于Hexo"><a href="#关于Hexo" class="headerlink" title="关于Hexo"></a>关于Hexo</h3><p><b style="color:#FC131C">Hexo：</b><strong>快速、简洁且高效的博客框架</strong> ，基于Node语言开发的。具有一下特性：</p>
+<ul>
+<li><strong>超快速度 </strong><br>  Node.js 所带来的超快生成速度，让上百个页面在几秒内瞬间完成渲染</li>
+<li><strong>支持 Markdown</strong><br>  支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件</li>
+<li><strong>一键部署</strong><br>  只需一条指令即可部署到 GitHub Pages, Heroku 或其他网站</li>
+<li><strong>丰富的插件</strong><br>  Hexo 拥有强大的插件系统，安装插件可以让 Hexo 支持 Jade, CoffeeScript</li>
+</ul>
+<p>选择Hexo框架的原因之一它简洁主题，以及对MarkDown的支持。现在感觉下来确实不错。</p>
+<div class="note "><p>闲话不多说，介绍下，我是怎么一步步构建我的博客的。PS：其实 <a href="https://hexo.io/zh-cn/" target="_blank" rel="external"><strong>Hexo官网</strong></a>介绍很详细，跟着官网操作就OK，这里只是一步步介绍我的操作步骤</p>
 </div>
-<h4 id="1、注册GitHub"><a href="#1、注册GitHub" class="headerlink" title="1、注册GitHub"></a>1、注册GitHub</h4><p> 访问 <a href="https://pages.github.com" target="_blank" rel="external">GitHub</a>，注册GitHub账户，注意：<strong>userName</strong>和后面的GitHub Pages访问地址有关。注册成功后要记得邮箱激活GitHub.</p>
-<h4 id="2、创建repository"><a href="#2、创建repository" class="headerlink" title="2、创建repository"></a>2、创建repository</h4><p> 注册成功登陆后，点击“New repository”创建repository，如下图所示</p>
-<p><img src="http://on91wk3hn.bkt.clouddn.com/17-4-2/83703949-file_1491114516501_9b11.png" alt="创建"></p>
-<p> 接下来填写Repository Name，格式：[userName].github.io , userName是你注册GitHub填写的userName. 例如下图， <strong> ZhangYaru8829 </strong>是我GitHub的用户名。如下图所示</p>
-<p><img src="http://on91wk3hn.bkt.clouddn.com/17-4-2/82010932-file_1491114124734_9b4e.png" alt=""></p>
-<div class="note danger"><p>注意：Repository Name一定要是[userName].github.io 格式</p>
-</div>
-<p>然后点击 <strong>“Create repository”</strong>按钮，创建repository</p>
-<p><img src="http://on91wk3hn.bkt.clouddn.com/17-4-2/99871409-file_1491117808474_3bf8.png" alt=""></p>
- <div class="note danger"><p>注意：创建repository时，注意勾选 <strong>“Initialize this repository with a README”</strong>选项</p>
-</div>
-<h4 id="3、创建页面index-html"><a href="#3、创建页面index-html" class="headerlink" title="3、创建页面index.html"></a>3、创建页面index.html</h4><p> 创建repository成功后，来添加我们的第一个页面 index.html.</p>
-<p> 点击 <strong>“Create new file”</strong>按钮，如下图<br> <img src="http://on91wk3hn.bkt.clouddn.com/17-4-2/64913308-file_1491118173845_168f2.png" alt=""></p>
-<p> 创建index.html，增加页面代码<br><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>my GitHub Pages<span class="tag">&lt;/<span class="name">title</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span>我的 GitHub Pages 创建成功啦！<span class="tag">&lt;/<span class="name">p</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure><br><img src="http://on91wk3hn.bkt.clouddn.com/17-4-2/743565-file_1491118388897_1a55.png" alt=""></p>
-<p>创建时，注意使用默认master分支<br><img src="http://on91wk3hn.bkt.clouddn.com/17-4-2/70891937-file_1491118784967_105b3.png" alt=""></p>
-<h4 id="4、查看GitHub-Pages发布地址"><a href="#4、查看GitHub-Pages发布地址" class="headerlink" title="4、查看GitHub Pages发布地址"></a>4、查看GitHub Pages发布地址</h4><p>点击 <strong>“Settings”</strong> 按钮，查看 GitHub Pages 地址。</p>
-<p><img src="http://on91wk3hn.bkt.clouddn.com/17-4-2/99113761-file_1491119124827_4ed3.png" alt=""><br>GitHub Pages发布地址<br><img src="http://on91wk3hn.bkt.clouddn.com/17-4-2/40160729-file_1491119330259_16694.png" alt=""></p>
-<p>GitHub Pages搭建成功啦！<br><img src="http://on91wk3hn.bkt.clouddn.com/17-4-2/51383077-file_1491119663410_159ea.png" alt=""></p>
+<h3 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h3><h4 id="安装前提"><a href="#安装前提" class="headerlink" title="安装前提"></a>安装前提</h4><p>安装Hexo之前，要确保你的电脑安装了</p>
+<p><a href="http://nodejs.org/" target="_blank" rel="external"><strong>Node.js</strong></a><br><a href="http://git-scm.com/" target="_blank" rel="external"><strong>Git</strong></a></p>
+<blockquote>
+<p>关于Node与Git的安装，这里不做介绍，不熟悉的童鞋可以去 <a href="https://www.google.com.hk" target="_blank" rel="external">Google</a> 下</p>
+</blockquote>
+<p>ok，Node.js 和 Git已经搞定后，第一步，打开终端，执行 Hexo 安装命令：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install -g hexo-cli</div></pre></td></tr></table></figure>
+<blockquote>
+<p>这地方我报错，因为没有权限，重新执行：<strong>sudo</strong> npm install -g hexo-cli 搞定</p>
+</blockquote>
+<p>安装完成后，检查是否安装成功，执行一下命令</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo -verson</div></pre></td></tr></table></figure>
+<p>正确输出 hexo 版本 </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">limi ~ $ hexo -verson</div><div class="line">hexo-cli: 1.0.2</div><div class="line">os: Darwin 16.4.0 darwin x64</div><div class="line">http_parser: 2.7.0</div><div class="line">node: 6.8.1</div><div class="line">v8: 5.1.281.84</div><div class="line">uv: 1.9.1</div><div class="line">zlib: 1.2.8</div><div class="line">ares: 1.10.1-DEV</div><div class="line">icu: 57.1</div><div class="line">modules: 48</div><div class="line">openssl: 1.0.2j</div><div class="line">limi ~ $ </div></pre></td></tr></table></figure>
+<p>OK , 安装成功！</p>
+<h3 id="建站"><a href="#建站" class="headerlink" title="建站"></a>建站</h3><p>Hexo 安装成功后，我们可以开始构建自己的博客啦，首先初始化博客目录</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo init myblog</div></pre></td></tr></table></figure>
+<p>初始化完成后，切换到博客目录，我的目录是myblog</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ cd myblog</div></pre></td></tr></table></figure>
+<p>执行安装命令</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install</div></pre></td></tr></table></figure>
+<p>稍等片刻，安装完成后，mybolg子目录如下<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">.</div><div class="line">├── _config.yml</div><div class="line">├── package.json</div><div class="line">├── scaffolds</div><div class="line">├── source</div><div class="line">|   ├── _drafts</div><div class="line">|   └── _posts</div><div class="line">└── themes</div></pre></td></tr></table></figure></p>
+<p>各个文件及文件夹含义，不做介绍，想知道请移步<a href="https://hexo.io/zh-cn/docs/setup.html" target="_blank" rel="external">官方介绍</a>。</p>
+<p>OK , 安装完成后，我们开启服务，命令如下<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure></p>
+<p>输出内容<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">INFO  Start processing</div><div class="line">INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.</div></pre></td></tr></table></figure></p>
+<p>OK，启动成功啦，默认发布地址是 <a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a> ，当然你也可以修改端口号<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server -p --8888</div></pre></td></tr></table></figure></p>
+<p>OK，现在打开浏览器，就可以访问到你的博客啦，就这么简单！</p>
+<p><img src="http://on91wk3hn.bkt.clouddn.com/17-4-3/5242528-file_1491209954195_fc84.png" alt=""></p>
+<p>Hexo 安装成功后，默认的主题是landscape，相比我更喜欢 <a href="http://theme-next.iissnan.com" target="_blank" rel="external">NexT</a> 主题，见我<a href="http://www.lirenmi.com" target="_blank" rel="external">个人博客</a> 先贴图</p>
+<p><img src="http://on91wk3hn.bkt.clouddn.com/17-4-3/55310405-file_1491210628989_1751f.png" alt=""></p>
+<p>接下来，介绍更换 <a href="http://theme-next.iissnan.com" target="_blank" rel="external">NexT</a> 主题</p>
+<h3 id="更换-NexT-主题"><a href="#更换-NexT-主题" class="headerlink" title="更换 NexT 主题"></a>更换 NexT 主题</h3><h4 id="下载-NexT"><a href="#下载-NexT" class="headerlink" title="下载 NexT"></a>下载 NexT</h4><p><a href="http://theme-next.iissnan.com" target="_blank" rel="external">Next 官网</a> 下载最新 NexT主题，然后把下载的目录文件名称改成 <b style="color: #FC131C">next</b>，拷贝该目录至 <em style="color: #FC131C">博客目录/themes</em> 目录下</p>
+<p><img src="http://on91wk3hn.bkt.clouddn.com/17-4-3/93365056-file_1491212001251_9f07.png" alt="" style="margin: 0 auto; width: 70%"></p>
+<h4 id="修改-config-yml-配置文件"><a href="#修改-config-yml-配置文件" class="headerlink" title="修改 _config.yml 配置文件"></a>修改 _config.yml 配置文件</h4><p>博客目录下，打开 _config.yml 文件，修改 theme 成 next </p>
+<p><img src="http://on91wk3hn.bkt.clouddn.com/17-4-3/78482203-file_1491212776988_3a8e.png" alt=""></p>
+<p>重新启动服务，刷新页面，OK，NexT主题更换成功</p>
+<p><img src="http://on91wk3hn.bkt.clouddn.com/17-4-3/64320995-file_1491213067021_420.png" alt=""></p>
+<p>好啦，先介绍到这儿，下一篇文章介绍 <b style="color: #FC131C">NexT 主题配置</b></p>
 <div class="note "><p><strong>本文作者</strong> : 李仁密<br><strong>版权声明</strong> : 自由转载，转载请注明出处！</p>
 </div>
 
@@ -504,15 +535,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2017/04/02/Hexo与GitHub搭建个人博客/" rel="next" title="Hexo与GitHub免费搭建个人博客（一）">
+                <i class="fa fa-chevron-left"></i> Hexo与GitHub免费搭建个人博客（一）
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/04/03/Hexo与GitHub免费搭建个人博客（二）/" rel="prev" title="Hexo与GitHub免费搭建个人博客（二）">
-                Hexo与GitHub免费搭建个人博客（二） <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -703,7 +734,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#环境准备"><span class="nav-number">1.</span> <span class="nav-text">环境准备</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#GitHub-Pages环境搭建"><span class="nav-number">2.</span> <span class="nav-text">GitHub Pages环境搭建</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1、注册GitHub"><span class="nav-number">2.1.</span> <span class="nav-text">1、注册GitHub</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2、创建repository"><span class="nav-number">2.2.</span> <span class="nav-text">2、创建repository</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3、创建页面index-html"><span class="nav-number">2.3.</span> <span class="nav-text">3、创建页面index.html</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4、查看GitHub-Pages发布地址"><span class="nav-number">2.4.</span> <span class="nav-text">4、查看GitHub Pages发布地址</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#关于Hexo"><span class="nav-number">1.</span> <span class="nav-text">关于Hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装Hexo"><span class="nav-number">2.</span> <span class="nav-text">安装Hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#安装前提"><span class="nav-number">2.1.</span> <span class="nav-text">安装前提</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#建站"><span class="nav-number">3.</span> <span class="nav-text">建站</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#更换-NexT-主题"><span class="nav-number">4.</span> <span class="nav-text">更换 NexT 主题</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#下载-NexT"><span class="nav-number">4.1.</span> <span class="nav-text">下载 NexT</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#修改-config-yml-配置文件"><span class="nav-number">4.2.</span> <span class="nav-text">修改 _config.yml 配置文件</span></a></li></ol></li></ol></div>
             
 
           </div>
